@@ -1,0 +1,8 @@
+# GL cache fixtures are binary (deflate-compressed JSON). Never apply
+# line-ending normalization or text diffing to them.
+*.json.zip binary
+*.zip      binary
+
+# Text files use LF.
+*.md   text eol=lf
+LICENSE text eol=lf
